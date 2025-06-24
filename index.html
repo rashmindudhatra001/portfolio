@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashmin's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Rashmin Dudhatra</div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Rashmin</h1>
+                <p class="tagline">Full Stack Developer & Web Developer</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-primary">View My Work</a>
+                    <a href="#contact" class="cta-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/profile.JPG" alt="Rashmin's Profile Picture">
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate Full Stack Developer with expertise in modern web technologies. I love creating
+                        beautiful, functional, and user-friendly applications that solve real-world problems. With a
+                        strong foundation in both front-end and back-end development, I bring ideas to life through
+                        clean code and intuitive design.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/rashmin" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub Profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com/in/rashmin" target="_blank" rel="noopener noreferrer"
+                            aria-label="LinkedIn Profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p> HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>Python, SQL, Django, Flask</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Application Development</h3>
+                    <p>Flutter</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project1.png" alt="E-commerce Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3>LMS-Learning Management System</h3>
+                        <p>A full-stack LMS solution with python, Django, Html, Css, JavaScript and Paymant gatway (Razorpay) .</p>
+                        <div class="project-links">
+                            <!-- <a href="https://ecommerce-project.com" class="project-link">Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.svg" alt="Task Management App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A Vue.js-based task management application with real-time updates.</p>
+                        <div class="project-links">
+                            <a href="https://taskmanager-app.com" class="project-link">Live Demo</a>
+                            <a href="https://github.com/rashmin/taskmanager" class="project-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>rashmindudhatra001@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 8238224341</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-location-dot"></i>
+                        <p>Bangalore, Karnataka</p>
+                    </div>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation"
+                    novalidate>
+                    <input type="hidden" name="access_key" value="5430bbb8-d243-44a9-ba5b-ea5e4754c2e9" />
+                    <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                    <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+
+                    <div class="mb-4">
+                        <label for="full_name" class="block mb-2 text-sm text-gray-600">Full Name</label>
+                        <input type="text" name="name" id="full_name" placeholder="John Doe" required
+                            class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                    </div>
+
+
+
+
+                    <div class="mb-4">
+                        <label for="email" class="block mb-2 text-sm text-gray-600">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="you@company.com" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required placeholder="Your Email" required aria-required="true"
+                            class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                    </div>
+
+
+                    <div class="mb-4">
+                        <label for="message" class="block mb-2 text-sm text-gray-600">Your Message</label>
+
+                        <textarea rows="4" name="message" id="message" placeholder="Your Message"
+                            class="w-full h-28 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                            required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit"
+                            class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                            Send Message
+                        </button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Rashmin's Portfolio. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/rashmin" aria-label="GitHub Profile" rel="noopener noreferrer"><i
+                        class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://linkedin.com/in/rashmin" aria-label="LinkedIn Profile" rel="noopener noreferrer"><i
+                        class="fab fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
