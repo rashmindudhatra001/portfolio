@@ -180,6 +180,29 @@ nav {
     transform: translateY(-3px);
 }
 
+.resume-button {
+    margin-top: 2rem;
+}
+
+.resume-button a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.resume-button a:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
 /* Skills Section */
 .skills {
     padding: 6rem 2rem;
